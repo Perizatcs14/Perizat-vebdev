@@ -1,0 +1,18 @@
+/* global.css */
+body {
+    background-color: #f0f0f0;
+    color: #000000;
+    font-family: Arial, sans-serif; /* Замените на шрифт по вашему выбору */
+  }
+  
+  .header {
+    background-color: #FF6F61; /* Цвет для шапки страницы */
+  }
+  
+  .footer {
+    background-color: #FF6F61; /* Цвет для нижнего колонтитула */
+  }
+  
+
+
+

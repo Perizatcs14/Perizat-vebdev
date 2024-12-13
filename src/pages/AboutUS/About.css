@@ -1,0 +1,15 @@
+.about {
+  background-color: #f0f0f0; /* Серый цвет фона */
+  color: #000; /* Чёрный цвет текста */
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+
+
+.about .small-image {
+  max-width: 300px; /* Ограничивает максимальную ширину второго изображения */
+  height: auto; /* Соответствует высоте, поддерживает пропорции */
+}
