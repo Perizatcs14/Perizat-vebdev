@@ -1,62 +1,37 @@
-
-.header {
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  background-position: center; 
+header {
+  position: fixed; 
+  top: 0;
+  right: 0;
+  width: 100%; 
+  background-color: #fff; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  z-index: 1000; 
+  padding: 10px 20px;
 }
 
 nav {
-  position: absolute; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  color: rgba(213, 16, 16, 0.5);
-  z-index: 2; 
-  margin-left: 500px;
- 
-}
-a.active{
-  background: #ff4500;
-  border-radius: 2px;
-}
-
-a:hover{
-  background: #0056b3;;
-  border-radius: 2px;
-}
-.site-text {
- position: absolute;
-  font-family: 'Playfair Display', cursive;
-  font-size: 90px;
- top: -70px;
- text-shadow: 7px 7px 8px rgba(10, 10, 10, 0.5);
- color: #ffffff;;
- left: 350px;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
+  display: flex; 
+  justify-content: flex-end; 
   align-items: center;
+  gap: 20px; 
 }
 
-ul li {
-  margin: 0 15px;
+nav a {
+  text-decoration: none; 
+  font-size: 16px;
+  color: #333; 
+  font-weight: bold;
+  padding: 5px 10px; 
+  border-radius: 5px; 
+  transition: all 0.3s ease; 
 }
 
-ul li a {
-  color: blue;
-  text-decoration: none;
-  font-size: 18px;
+nav a:hover {
+  background-color: #007bff; 
+  color: #fff; 
 }
 
-ul li a:hover {
-  text-decoration: underline;
+nav a.active {
+  background-color: #0056b3; 
+  color: #fff;
 }
-
-
