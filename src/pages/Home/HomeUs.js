@@ -1,14 +1,19 @@
 import React, { useState } from "react";
 import './Home.css';
+import finalimg from './../../images/FinalProject.jpg'
+import image1 from './../../images/FinalProject.jpg';
+import image2 from './../../images/Final Project2.jpg';
+import image3 from './../../images/Final Project3.jpg';
+import image4 from './../../images/Final Project4.jpg';
 
 const Home = () => {
-  const images = [
-    "blob:.https://images.hdqwalls.com/download/sunset-tree-red-ocean-sky-7w-3840x2160.jpg",
-    "blob:https://web.telegram.org/cc12c923-225f-44a9-905a-62236a8c205e",
-    "blob:https://web.telegram.org/b41fba62-56ef-4da2-b664-2c7e2948bf76",
-    "blob:https://web.telegram.org/ecb2df7b-4a52-422e-b455-bcf40012a907"
+  const images = [finalimg, image1, image2, image3,image4];
+
+
+
+
     
-  ];
+  
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -23,10 +28,16 @@ const Home = () => {
   return (
     <div className="home">
       <h2>Welcome to American School Camp!</h2>
-      <p>
-        Experience the ultimate adventure with fun activities, educational programs,
-        and lifelong memories. Join us this summer!
-      </p>
+    
+      
+      <main className="home-main">
+        <p>
+          Откройте дверь к незабываемым приключениям этим летом вместе с "American School Camp"! 
+          Наш лагерь предлагает уникальное сочетание развлечений, обучения и культурного обмена. 
+          Это место, где дети могут развивать свои таланты, заводить новых друзей и открывать для себя мир 
+          в атмосфере безопасности и заботы.
+        </p>
+      </main>
 
       <div className="carousel">
         <button className="prev" onClick={prevSlide}>Previous</button>

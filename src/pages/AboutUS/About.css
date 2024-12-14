@@ -1,15 +1,60 @@
 .about {
-  background-color: #f0f0f0; /* Серый цвет фона */
-  color: #000; /* Чёрный цвет текста */
-  padding: 20px;
-  border-radius: 5px;
   text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 
+.about h2 {
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  color: #34495e;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  text-align: left;
+}
 
 
-.about .small-image {
-  max-width: 300px; /* Ограничивает максимальную ширину второго изображения */
-  height: auto; /* Соответствует высоте, поддерживает пропорции */
+.about img:first-of-type {
+  width: 150px; 
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.about img:nth-of-type(2) {
+  width: 60%; 
+  max-width: 600px; 
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 15px auto;
+}
+
+.about p:nth-of-type(2) {
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px;
+  max-width: 700px;
+  margin: 20px auto; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.about section {
+  margin-top: 40px;
+  text-align: left;
 }
