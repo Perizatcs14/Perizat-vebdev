@@ -1,11 +1,23 @@
 .home {
-  background-color: #e0e0e0; /* Серый цвет фона */
-  color: #000; /* Чёрный цвет текста */
+  background-color: #e0e0e0; 
+  color: #000; 
   padding: 20px;
   border-radius: 5px;
   text-align: center;
 }
-
+.home h2 {
+  margin-top: 40px; 
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  color: #2c3e50; 
+}
+.home-main {
+  margin-top: 20px; 
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
 .carousel {
   display: flex;

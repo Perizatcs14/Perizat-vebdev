@@ -25,9 +25,12 @@
 .about img:first-of-type {
   width: 150px; 
   height: auto;
-  margin: 0 auto;
+  margin: 20px; 
   display: block;
+  float: left; 
 }
+
+
 
 .about img:nth-of-type(2) {
   width: 60%; 
@@ -36,6 +39,7 @@
   margin: 20px auto;
   display: block;
   border-radius: 8px;
+  float: right; 
 }
 
 
@@ -53,8 +57,20 @@
   max-width: 700px;
   margin: 20px auto; 
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
 }
 .about section {
-  margin-top: 40px;
-  text-align: left;
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px;
+  max-width: 300px;
+}
+
+.about section h3 {
+  background-color: #f9f9f9; 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
