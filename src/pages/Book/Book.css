@@ -20,8 +20,8 @@
   }
   
   .tour-image {
-    width: 100%;
-    border-radius: 8px;
+    width: 100%; 
+    height: auto; 
   }
   
   .tour-card h2 {
