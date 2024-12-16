@@ -23,15 +23,14 @@
 
 
 .about img:first-of-type {
- 
-  position: absolute; 
+  position: absolute;
   top: 0;
   left: 0;
-  width: auto; 
-  height: auto;
-  margin: 0px; 
-
+  width: auto; /* maintain the original aspect ratio */
+  height: auto; /* maintain the original aspect ratio */
 }
+
+
 
 
 

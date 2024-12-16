@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './Book.css';
+import finalimg from './../../images/FinalProject.jpg'
 import image1 from './../images/your-image.jpg'; 
 import image2 from './../../images/FinalProject.jpg';
 import image2 from './../../images/our-image.jpg';
@@ -11,25 +12,25 @@ function Book() {
 
     const tours = [
       {
-        id: 1,
+        
         title: "Зимний лагерь",
         description: "Проведите каникулы весело! С 3 января по 11 января.",
         price: "15,000 ₸",
-        image: image1, 
+        image: your-image.jpg, 
       },
       {
-        id: 2,
+        
         title: "Летний лагерь",
         description: "Отдых и приключения летом.",
         price: "18,000 ₸",
-        image: image2,
+        image: FinalProject.jpg,
       },
       {
-        id: 3,
+        image: our-image.jpg,
         title: "Осенний лагерь",
         description: "Наслаждайтесь осенью в нашем лагере.",
         price: "13,000 ₸",
-        image: image2, 
+         
       },
     ];
 
