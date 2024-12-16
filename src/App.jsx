@@ -6,7 +6,7 @@ import About from './pages/AboutUS/AboutUs.js';
 import Contact from './pages/Contact/Contact.js';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer/Footer.jsx';
-import Book from './pages/Book/Book.js'
+import Book from './pages/Book/Book.js';
 import './components/styles/global.css';
 
 function App() {
