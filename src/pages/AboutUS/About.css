@@ -23,12 +23,19 @@
 
 
 .about img:first-of-type {
-  width: 150px; 
+ 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: auto; 
   height: auto;
-  margin: 20px; 
-  display: block;
-  float: left; 
+  margin: 0px; 
+
 }
+
+
+
+
 
 
 
